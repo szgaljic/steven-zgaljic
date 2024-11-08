@@ -34,12 +34,12 @@ header:
     align: "center"
     fixed_to_top: true
     logo:
-      text: ""
+      text: "STEVEN ZGALJIC"
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
+      filename: ""
     button:
       enable: true
-      text: "Get Started"
+      text: "Contact"
       url: "https://hugoblox.com/templates/"
     show_search: true
     show_theme_chooser: true
@@ -47,7 +47,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year} Steven Zgaljic'
 
 # Localization
 locale:

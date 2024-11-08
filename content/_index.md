@@ -10,19 +10,19 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: Untangling Complexity.
+      text: Delivering Pragmatic Technical Leadership.
       primary_action:
-        text: Get Started
+        text: Learn How
         url: https://hugoblox.com/templates/
         icon: rocket-launch
-      secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
+      # secondary_action:
+      #   text: Read the docs
+      #   url: https://docs.hugoblox.com
       announcement:
-        text: "Announcing the release of version 1."
+        text: "Let's work together."
         link:
-          text: "Read more"
+          text: "Reach out"
           url: "/blog/"
     design:
       spacing:

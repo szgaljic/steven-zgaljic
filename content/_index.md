@@ -110,26 +110,26 @@ sections:
   # Jahnel Group
   #
 
-  - block: image-overlay
+  - block: hero
     id: jahnel-group
     content:
       title: CTO at Jahnel Group
       text: |
         As CTO of Jahnel Group, Steven Zgaljic spearheads innovative technology solutions that drive the company's strategic direction. His role involves overseeing the technology roadmap, leading the development of cutting-edge software solutions, and ensuring technological excellence across the company. His leadership is pivotal in maintaining Jahnel Group's status at the forefront of the industry.
-      action:
+      primary_action:
         text: Visit Jahnel Group
         url: "https://www.jahnelgroup.com"
         target: "_blank"
     design:
       background:
         image:
-          filename: hero.jpg  # Ensure this image conveys the enterprise setting of Jahnel Group
+          filename: jahnel-group.jpg  # Ensure this image conveys the enterprise setting of Jahnel Group
           size: cover
           position: center
       text_color: "white"
       overlay:
         color: "rgba(0, 0, 0, 0.5)"  # Adjust for text readability
-      css_class: "full-width"
+      css_class: "full-width hero-dark-overlay"
       spacing:
         padding: [3rem, 1rem, 3rem, 1rem]  # Adjust based on your layout preferences
 

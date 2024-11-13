@@ -1,0 +1,31 @@
+<script type="text/javascript">
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const formData = new FormData(this);
+    const jsonPayload = {};
+
+    for (const [key, value] of formData.entries()) {
+      jsonPayload[key] = value;
+    }
+
+    if( !jsonPayload["g-recaptcha-response"] || jsonPayload["g-recaptcha-response"] === "" ) {
+      document.getElementById('responseMessage').innerHTML = "Please complete the reCAPTCHA.";
+      return;
+    }
+
+    fetch('https://script.google.com/macros/s/AKfycbyF4WQ5DIb2V0-l4xCwp22gaZVb8VO2qxBTzDGj4vf5hfR_jfGerbDe9sSKO9CGurbQ/exec', {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(jsonPayload),
+    }).then(response => {
+      document.getElementById('responseMessage').innerHTML = "Thank you for reaching out, I will be in touch!";
+      document.getElementById('contactForm').reset();
+    }).catch(error => {
+      document.getElementById('responseMessage').innerHTML = "Please try again.";
+    });
+  });  
+</script>  

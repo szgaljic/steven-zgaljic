@@ -1,0 +1,55 @@
+# SITE SETUP
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+appearance:
+  mode: light
+  color: indigo
+
+# SEO
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: 'Software Consutling'
+    org_name: 'Jahnel Group'
+    description: 'Aligning technology strategy and execution in complex enterprise environments.'
+    twitter: ''
+  analytics:
+    google_analytics: 'G-HLY55LL0Y8'
+    baidu_tongji: ''
+    plausible: ''
+    fathom: ''
+    pirsch: ''
+  verification:
+    google: ''
+    baidu: ''
+
+# Site header
+header:
+  navbar:
+    enable: true
+    blox: "navbar"
+    align: "center"
+    fixed_to_top: true
+    logo:
+      text: "STEVEN ZGALJIC"
+      # Logo filename in `assets/media/` folder
+      filename: ""
+    button:
+      enable: true
+      text: "Contact"
+      url: "/#contact"
+    show_search: false
+    show_theme_chooser: false
+
+# Site footer
+footer:
+  copyright:
+    notice: '© {year} Steven Zgaljic'
+
+# Localization
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'

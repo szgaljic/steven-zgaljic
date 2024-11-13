@@ -95,7 +95,7 @@ sections:
             - "Streamline Communication Processes"
             - "Skill Alignment and Development"
           # Upload image to `assets/media/` and reference the filename here
-          image: team.jpg
+          image: team.png
         - title: Architecture Design & Optimization
           text: Create scalable, secure architectures tailored to organizational needs, including cloud and on-premise, monolith and microservice, and enterprise integration patterns.
           feature_icon: check
@@ -104,7 +104,7 @@ sections:
             - "Enhance System Security and Reliability"
             - "Tailored Technology Solutions"
           # Upload image to `assets/media/` and reference the filename here
-          image: tech.jpg
+          image: tech.png
 
   #
   # Contact

@@ -4,7 +4,7 @@ date: 2024-11-12
 share: false
 ---
 
-Welcome to [Your Name]'s website. By accessing or using this website, you agree to the following terms:
+Welcome to Steven Zgaljic's website. By accessing or using this website, you agree to the following terms:
 
 * **Use of Content:** The content on this website is for informational purposes only. You may not reproduce, distribute, or modify any content without permission.
 * **Disclaimer:** This website is provided "as is" without warranties of any kind. 

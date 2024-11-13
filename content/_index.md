@@ -28,7 +28,7 @@ sections:
         text: "Let's work together."
         link:
           text: "Reach out"
-          url: "/blog/"
+          url: "/#contact"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -64,7 +64,7 @@ sections:
       items:
         - title: Hi, I'm Steven.
           text: |
-            I help large enterprises and mid-sized companies turn technology frustrations into clear, actionable strategies. With deep expertise in technology planning, system architecture, and leadership, I bring pragmatic solutions that align your technology with your business goals, so you can achieve what your organization was built to do.
+            Steven Zgaljic helps large enterprises and mid-sized companies transform technology frustrations into clear, actionable strategies. With his deep expertise in technology planning, system architecture, and leadership, he delivers pragmatic solutions that align technology with business goals, enabling organizations to achieve their core objectives.
           image: pic.jpg
     design:
       columns: 2
@@ -105,6 +105,33 @@ sections:
             - "Tailored Technology Solutions"
           # Upload image to `assets/media/` and reference the filename here
           image: tech.png
+
+  #
+  # Jahnel Group
+  #
+
+  - block: image-overlay
+    id: jahnel-group
+    content:
+      title: CTO at Jahnel Group
+      text: |
+        As CTO of Jahnel Group, Steven Zgaljic spearheads innovative technology solutions that drive the company's strategic direction. His role involves overseeing the technology roadmap, leading the development of cutting-edge software solutions, and ensuring technological excellence across the company. His leadership is pivotal in maintaining Jahnel Group's status at the forefront of the industry.
+      action:
+        text: Visit Jahnel Group
+        url: "https://www.jahnelgroup.com"
+        target: "_blank"
+    design:
+      background:
+        image:
+          filename: hero.jpg  # Ensure this image conveys the enterprise setting of Jahnel Group
+          size: cover
+          position: center
+      text_color: "white"
+      overlay:
+        color: "rgba(0, 0, 0, 0.5)"  # Adjust for text readability
+      css_class: "full-width"
+      spacing:
+        padding: [3rem, 1rem, 3rem, 1rem]  # Adjust based on your layout preferences
 
   #
   # Contact

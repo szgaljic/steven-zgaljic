@@ -123,7 +123,7 @@ sections:
     design:
       background:
         image:
-          filename: jahnel-group.jpg 
+          filename: jahnel-group.jpg
           size: cover
           position: center
       text_color: "white"

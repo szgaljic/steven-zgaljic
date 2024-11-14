@@ -121,17 +121,31 @@ sections:
         url: "https://www.jahnelgroup.com"
         target: "_blank"
     design:
-      background:
-        image:
-          filename: jahnel-group.jpg
-          size: cover
-          position: center
-      text_color: "white"
-      overlay:
-        color: "rgba(0, 0, 0, 0.5)"  # Adjust for text readability
-      css_class: "full-width hero-dark-overlay"
       spacing:
-        padding: [3rem, 1rem, 3rem, 1rem]  # Adjust based on your layout preferences
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+      css_class: "dark"
+      background:
+        color: "navy"
+        image:
+          # Add your image background to `assets/media/`.
+          filename: jahnel-group.jpg
+          filters:
+            brightness: 0.5        
+    # design:
+    #   background:
+    #     image:
+    #       filename: jahnel-group.jpg
+    #       size: cover
+    #       position: center
+    #   text_color: "white"
+    #   overlay:
+    #     color: "rgba(0, 0, 0, 0.5)"  # Adjust for text readability
+    #   css_class: "full-width hero-light-overlay"
+    #   spacing:
+    #     padding: [3rem, 1rem, 3rem, 1rem]  # Adjust based on your layout preferences
+       
 
   #
   # Contact

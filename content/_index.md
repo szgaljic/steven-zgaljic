@@ -123,7 +123,7 @@ sections:
     design:
       background:
         image:
-          filename: jahnel-group.jpg  # Ensure this image conveys the enterprise setting of Jahnel Group
+          filename: hero.jpg  # Ensure this image conveys the enterprise setting of Jahnel Group
           size: cover
           position: center
       text_color: "white"

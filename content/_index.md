@@ -123,7 +123,7 @@ sections:
     design:
       background:
         image:
-          filename: hero.png 
+          filename: jahnel-group.jpg 
           size: cover
           position: center
       text_color: "white"

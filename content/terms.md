@@ -9,4 +9,4 @@ Welcome to Steven Zgaljic's website. By accessing or using this website, you agr
 * **Use of Content:** The content on this website is for informational purposes only. You may not reproduce, distribute, or modify any content without permission.
 * **Disclaimer:** This website is provided "as is" without warranties of any kind. 
 * **Links to Other Websites:** This website may contain links to third-party websites. These links are provided for your convenience only and do not imply endorsement.
-* **Governing Law:** These terms are governed by the laws of [Your State/Province, Country].
+* **Governing Law:** These terms are governed by the laws of New York, US.

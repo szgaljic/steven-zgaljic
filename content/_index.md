@@ -19,7 +19,7 @@ sections:
       text: Delivering Pragmatic Technical Leadership.
       primary_action:
         text: Learn How
-        url: https://hugoblox.com/templates/
+        url: /#about
         icon: rocket-launch
       # secondary_action:
       #   text: Read the docs

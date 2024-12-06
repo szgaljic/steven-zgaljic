@@ -13,5 +13,5 @@ main:
     url: /#jahnel-group
     weight: 30
   - name: Blog
-    url: https://insights.jahnelgroup.com
+    url: https://insights.jahnelgroup.com/tag/cto
     weight: 40
